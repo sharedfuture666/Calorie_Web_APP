@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet", href="static/main.css">
+
+</head>
+<body>
+<h2>The User Info Form</h2>
+<p>Fill in the form and click the button to get the results</p>
+<form action="/results" method="post">
+    {{userform.name.label}} {{userform.name}}
+    <br>
+    {{userform.age.label}} {{userform.age}}
+    <br>
+    {{userform.gender.label}} {{userform.gender}}
+    <br>
+    {{userform.height.label}} {{userform.height}}
+    <br>
+    {{userform.weight.label}} {{userform.weight}}
+    <br>
+    {{userform.city.label}} {{userform.city}}
+    <br>
+    {{userform.button}}
+    <hr>
+</form>
+</body>
+</html>
+
